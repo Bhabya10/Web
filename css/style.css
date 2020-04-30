@@ -1,0 +1,188 @@
+.about-me{
+    height: 100vh;
+    position: relative;
+    background-image: linear-gradient(to bottom,#f0c27b,#4b1248 );
+
+
+}
+.photo{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    bottom: 0;
+}
+.about-me-text{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 30%;
+    font-family: "Montserrat", sans-serif;
+
+}
+.about-me-second{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 40%;
+    font-family: "Montserrat", sans-serif;
+
+}
+.about-me-third{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50%;
+
+}
+.nav-links{
+    position: absolute;
+    left:50%;
+     transform: translateX(-50%);
+     font-family: "Montserrat", sans-serif;
+
+
+}
+.about-me-fourth{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 80%;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.services{
+    position :relative;
+    height:100vh;
+    background-image:linear-gradient(#f0c27b,#4b1248);
+}
+.delivery{
+     position: absolute;
+    width: 100%;
+    height: 100vh;
+    bottom: 0;
+    top:29%;
+}
+.services-text{
+     position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    top: 2%;
+}   
+
+.services-text-me{
+     position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    top: 12%;
+
+
+}
+.row{
+    position: absolute;
+    top: 30%;
+    font-family: 'Montserrat', sans-serif;
+}
+.pic{
+    width:30vw;
+}
+
+.news-text center{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 142%;
+    font-family: "Montserrat", sans-serif;
+
+
+}
+.u{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 100%;
+    font-family: "Montserrat", sans-serif;
+
+}
+.v{
+     position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 103%;
+    font-family: "Montserrat", sans-serif;
+
+}
+.w{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 105%;
+    font-family: "Montserrat", sans-serif;
+}
+.x{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 109%;
+    font-family: "Montserrat", sans-serif;
+}
+
+.y{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 112%;
+    font-family: "Montserrat", sans-serif;
+}
+.z{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 115%;
+    font-family: "Montserrat", sans-serif;
+
+}
+.a{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 119%;
+    font-family: "Montserrat", sans-serif;
+
+}
+.b{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 122%;
+    font-family: "Montserrat", sans-serif;
+}
+.c{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 125%;
+    font-family: "Montserrat", sans-serif;
+}
+.d{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 129%;
+    font-family: "Montserrat", sans-serif;
+}
+.e{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 132%;
+    font-family: "Montserrat", sans-serif;
+}
+.f{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 135%;
+    font-family: "Montserrat", sans-serif;
+}
+
+

@@ -1,1 +1,160 @@
-hello world
+x<html>
+    <head>
+        <script
+        src="https://code.jquery.com/jquery-3.5.0.min.js"
+        integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+        crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;900&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="stylesheet" href="css\style.css">
+        <title>DeliveryCo.</title>
+    </head>
+    <body>
+        <!--Navbar start-->
+        <nav>
+            <div class="nav-wrapper brown darken-4">
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="nav-links hide-on-med-and-down">
+                     <li><a href="sass.html">About-me</a></li>
+                    <li><a href="badges.html">Services</a></li>
+                    <li><a href="collapsible.html">News</a></li>
+                    <li><a href="mobile.html">Contacts</a></li>
+                    
+                </ul>
+            </div>
+        </nav>
+
+        <!--Sidenav start-->
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="sass.html">About-me</a></li>
+            <li><a href="badges.html">Services</a></li>
+            <li><a href="collapsible.html">News</a></li>
+             <li><a href="mobile.html">Contacts</a></li>
+            
+        </ul>
+        <script>
+            $(document).ready(function(){
+                $('.sidenav').sidenav();
+             });
+        </script>
+          
+
+        <!--sidenav end-->
+         <!--Navbar end-->
+         <!--About-me-->
+
+         <div class="about-me">
+            <img src="photo.PNG" class="photo">
+            <h2 class= "about-me-text center"> <font color = "brown"> <b>International Delivery</b></font> </h2><br><h3 class="about-me-second center "><font color= "black">4 days - 150 countries</font></h3></br><h5 class="about-me-third center">Delivery Co. provides international express delivery of documents, parcels and freight to more than 150 countries around the world within 4 to 7 business days.</h5><h6 class="about-me-fourth center"><b>Fast and reliable delivery services that meet your timeline.</b></h6>
+         </div>
+
+         <!--Services section-->
+         <div class="services">
+         
+         <h2 class="services-text center"><font color = "black">Services</font></h2><br><h5 class= "Services-text-me">DeliveryCo.is America’s leading same-day transport and logistics services company. Our dedicated courier service includes point-to-point delivery, fleet outsourcing, facilities management and custom transportation solutions.</br></h5>
+         
+         <!--grid-->
+         <div class="row">
+            <div class="col s12 m6 l6">
+                <div class="card-panel brown lighten-3">
+                    <h3 class="black-text center">Definite Time & Day</h3>
+                    <ul class="intern-desc black-text">
+                       <h5> We offer the widest range of definite time and day parcel delivery services in the market.</h5>
+                       <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Read more</a>
+                        <li>
+                        <h3 class="black-text center">Same Day Delivery</h3>
+                        <h5> The Same Day collection and delivery services.</h5>
+                       <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Read more</a>
+                        </li>
+                        <li>
+                        <h3 class="black-text center">Freight Services</h3>
+                        <h5> We offer a range of highly flexible and reliable express freight services.</h5>
+                       <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Read more</a>
+                        </li>
+                        <li>
+                        <h3 class="black-text center">Additional Services</h3>
+                        <h5> We make sure that our services meet the demands of your business, making shipping simple, easy and stress-free.</h5>
+                       <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Read more</a>
+                        </li>
+                        <li>
+                        <h3 class="black-text center">Courier Services</h3>
+                        <h5> DeliveryCo. is able to offer a courier service to suit you and your business needs.</h5>
+                       <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Read more</a>
+                        </li>
+                        
+                    </ul>
+                    <div id="modal1" class="modal">
+                        <div class="modal-content">
+                            <h4>Modal Header</h4>
+                                <p>A bunch of text</p>
+                        </div>
+                            <div class="modal-footer">
+                             <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+                             </div>
+                     </div>
+                     <script>
+                     $(document).ready(function(){
+                         $'.modal').modal();
+                        
+                     })
+                     </script>
+                </div>
+            </div>
+            <div class="col s12 m6 l6">
+                <div class="card-panel black hide-on-med-and-down">
+                    <img src="pic.PNG" style="width:100%;">
+                </div>
+            </div>
+            <div class="col s12 m6 l6">
+                <div class="card-panel black hide-on-med-and-down">
+                    <img src="draw.JPG" style="width:100%;">
+                </div>
+            </div>
+            <div class="col s12 m6 l6">
+                <div class="card-panel black hide-on-med-and-down">
+                    <img src="deliver.JPG" style="width:100%;">
+                </div>
+            </div>
+
+            <!--news-->
+            <div class="news">
+            <h2 class="news-text center"><font color = "black">News Center</font></h2>
+            <p><h4 class="u"><font color="brown">Believe in the Business of your Dreams</font></h4><br>
+            <h5 class="v"><font color="black">25 October 2016</font></h4><br>
+            <h6 class="w"><font color="black">You may be wondering if you have the necessary skills, time, connections, and a million other things in order to create the business of your dreams. If you let your uncertainty and insecurity overpower you, you won't ever be able to unleash your true business potential.</font></h4><br>
+            <h4 class="x"><font color="brown">Impact - The Heart of Business</font></h4><br>
+            <h5 class="y"><font color="black">25 October 2016</font></h4><br>
+             <h6 class="z"><font color="black">One of the most successful entrepreneurs featured at the Forbes website, Wendy Lipton - Dibner said that "the success of your business would solely depend on you. The only thing you can rely on is your power to achieve your goal".</font></h4><br>
+            <h4 class="a"><font color="brown">How to keep your Heart Healthy</font></h4><br>
+            <h5 class="b"><font color="black">25 October 2016</font></h4><br>
+             <h6 class="c"><font color="black">When we speak of heart, we cannot miss out on the importance and benefits of plant foods. Vegetables are an excellent source of glutamic acid. It is a class of amino acid which helps keeping blood pressure at lower levels; safe levels, so to say.</font></h4><br>
+            <h4 class="d"><font color="brown">Proper Colour Solutions for the Office</font></h4><br>
+            <h5 class="e"><font color="black">25 October 2016</font></h4><br>
+             <h6 class="f"><font color="black">When it comes to remodeling an office, one of the most important aspects is painting. Any shade of paint can change the complete look of a room as a color has an ability to change a drab and boring room into a stunning one.
+
+read more</font></h4><br></p>
+
+           
+
+
+
+
+
+         
+         </div>
+
+         </div>
+         
+
+
+
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+        </script>
+        
+        
+    </body>
+</html>
+
+
