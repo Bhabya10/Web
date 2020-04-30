@@ -99,7 +99,7 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 100%;
+    top: 85%;
     font-family: "Montserrat", sans-serif;
 
 }
@@ -107,7 +107,7 @@
      position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 103%;
+    top: 87%;
     font-family: "Montserrat", sans-serif;
 
 }
@@ -115,14 +115,14 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 105%;
+    top: 90%;
     font-family: "Montserrat", sans-serif;
 }
 .x{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 109%;
+    top: 95%;
     font-family: "Montserrat", sans-serif;
 }
 
@@ -130,14 +130,14 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 112%;
+    top: 97%;
     font-family: "Montserrat", sans-serif;
 }
 .z{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 115%;
+    top: 100%;
     font-family: "Montserrat", sans-serif;
 
 }
@@ -145,7 +145,7 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 119%;
+    top: 105%;
     font-family: "Montserrat", sans-serif;
 
 }
@@ -153,36 +153,34 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 122%;
+    top: 107%;
     font-family: "Montserrat", sans-serif;
 }
 .c{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 125%;
+    top: 110%;
     font-family: "Montserrat", sans-serif;
 }
 .d{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 129%;
+    top: 115%;
     font-family: "Montserrat", sans-serif;
 }
 .e{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 132%;
+    top: 117%;
     font-family: "Montserrat", sans-serif;
 }
 .f{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 135%;
+    top: 120%;
     font-family: "Montserrat", sans-serif;
 }
-
-
